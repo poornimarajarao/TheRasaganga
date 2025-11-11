@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>The Rasaganga</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-header">
+      <div class="logo nav-logo">
+        <a href="#">The<span>Rasaganga</span></a>
+      </div>
+      <div class="nav-menu-btn" id="menu-btn">
+        <span><i class="ri-menu-line"></i></span>
+      </div>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#special">Signature</a></li>
+      <li><a href="#chef">Chefs</a></li>
+      <li><a href="#client">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-btn">
+      <button class="btn"><i class="ri-shopping-bag-fill"></i></button>
+    </div>
+  </nav>
+
+  <header class="section-box hero-box" id="home">
+    <div class="hero-img">
+      <img src="assets/header.png" alt="header" />
+    </div>
+    <div class="hero-content">
+      <h1>Where Every Bite Tells a <span>Flavorful Story</span>.</h1>
+      <p class="section-text">
+        Step into a world where passion meets the plate. At The Rasaganga,
+        every ingredient, every spice, and every aroma is part of a story
+        crafted to awaken your senses and celebrate the joy of good food.
+      </p>
+      <div class="hero-btn">
+        <button class="btn">Reserve Your Table</button>
+      </div>
+    </div>
+  </header>
+  <section class="section-box dish-box" id="special">
+    <h2 class="section-title">Our Signature Dishes</h2>
+    <p class="section-text">
+      Made with care and served with love — our dishes mix classic taste with a modern touch.
+    </p>
+
+    <div class="dish-grid">
+      <div class="dish-card">
+        <img src="assets/special-1.png" alt="BBQ Chicken Wings" />
+        <h4>BBQ Chicken Wings</h4>
+        <p>
+          Juicy grilled chicken wings coated in smoky BBQ sauce with a touch of rosemary.
+        </p>
+        <div class="dish-rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+        </div>
+        <div class="dish-footer">
+          <p class="price">₹450</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="dish-card">
+        <img src="assets/special-2.png" alt="Japanese Ramen Bowl with Chicken and Vegetables" />
+        <h4>Japanese Ramen</h4>
+        <p>
+          Warm ramen noodles served in a rich, savory chicken broth, topped with tender chicken slices, fresh
+          vegetables, and a soft-boiled egg.
+        </p>
+
+        <div class="dish-rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+        </div>
+        <div class="dish-footer">
+          <p class="price">₹650</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="dish-card">
+        <img src="assets/special-3.png" alt="Huevos Rancheros" />
+        <h4>Mexican Huevos Rancheros</h4>
+        <p>
+          Fried eggs on warm tortillas with spicy tomato salsa, beans, and fresh coriander.
+        </p>
+        <div class="dish-rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+        </div>
+        <div class="dish-footer">
+          <p class="price">₹550</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="dish-card">
+        <img src="assets/special-4.png" alt="Japanese Ramen" />
+        <h4>Japanese Ramen</h4>
+        <p>
+          Steaming ramen noodles served in a savory chicken broth, garnished with tender slices of chicken, crisp
+          vegetables, and a perfectly soft-boiled egg for a comforting, flavorful meal.
+        </p>
+
+        <div class="dish-rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+        </div>
+        <div class="dish-footer">
+          <p class="price">₹650</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="dish-card">
+        <img src="assets/special-5.png" alt="Golden Brown French Toast with Berries and Maple Syrup" />
+        <h4>Golden Brown French Toast</h4>
+        <p>
+          Golden, crispy slices of French toast, drizzled with rich maple syrup and topped with fresh, juicy berries for
+          a sweet and indulgent breakfast treat.
+        </p>
+
+
+        <div class="dish-rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+        </div>
+        <div class="dish-footer">
+          <p class="price">₹650</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="dish-card">
+        <img src="assets/special-6.png" alt="Spaghetti with Parsley, Garlic, and Olive Oil" />
+        <h4>Spaghetti With Parsley</h4>
+        <p>
+          Al dente spaghetti tossed with fresh parsley, sautéed garlic, and extra virgin olive oil, creating a light yet
+          flavorful Italian classic.
+        </p>
+
+        <div class="dish-rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+        </div>
+        <div class="dish-footer">
+          <p class="price">₹650</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-box about-box">
+    <div class="about-img">
+      <img src="assets/explore.png" alt="explore" />
+    </div>
+    <div class="about-content">
+      <h1 class="section-title">Wholesome, Honest, and Full of Flavor</h1>
+      <p class="section-text">
+        At The Rasaganga, health and taste live in harmony. Every dish is made
+        from fresh, locally sourced ingredients — cooked slow, served with
+        care, and meant to nourish both body and soul.
+      </p>
+      <div class="about-btn">
+        <button class="btn">
+          Discover Our Story <span><i class="ri-arrow-right-line"></i></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="chef" id="chef">
+    <img src="assets/topping.png" alt="topping" class="chef-bg" />
+    <div class="section-box chef-box">
+      <div class="chef-img">
+        <img src="assets/chef.png" alt="chef" />
+      </div>
+      <div class="chef-content">
+        <h2 class="section-title">Crafted by Masters of Culinary Art</h2>
+        <p class="section-text">
+          Our chefs are artists of flavor — blending heritage, creativity, and
+          technique to transform simple ingredients into extraordinary
+          experiences. Every dish is a celebration of craftsmanship and care.
+        </p>
+        <ul class="chef-list">
+          <li>
+            <span class="highlight"><i class="bi bi-check-lg"></i></span>
+            Recipes refined by world-class chefs with a passion for perfection.
+          </li>
+          <li>
+            <span class="highlight"><i class="bi bi-check-lg"></i></span>
+            Every plate tells a story of innovation and heritage.
+          </li>
+          <li>
+            <span class="highlight"><i class="bi bi-check-lg"></i></span>
+            A harmony of tradition, artistry, and authenticity in every bite.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-box review-box" id="client">
+    <h2 class="section-title">What Our Guests Say</h2>
+    <p class="section-text">
+      Our guests inspire us every day. Read what they have to say about their
+      Rasaganga experience — where flavor meets emotion and every meal feels
+      like home.
+    </p>
+    <div class="review-slider">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="review-card">
+              <p>
+                “An unforgettable dining experience! Every dish felt crafted
+                with love. The Rasaganga has redefined comfort food for me.”
+              </p>
+              <img src="assets/client-1.jpg" alt="client" />
+              <h4>David</h4>
+              <h5>Entrepreneur</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <p>
+                “Their flavors are soulful, authentic, and beautifully
+                balanced. A true gem for anyone who appreciates fine dining.”
+              </p>
+              <img src="assets/client-2.jpg" alt="client" />
+              <h4>Dhanya</h4>
+              <h5>Food Critic</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <p>
+                “The Rasaganga never disappoints — impeccable food, warm
+                service, and a menu that tells a story with every course.”
+              </p>
+
+              <h4>Sharanya</h4>
+              <h5>Event Planner</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="section-box footer-box">
+      <div class="footer-col">
+        <div class="logo footer-logo">
+          <a href="#">The<span>Rasaganga</span></a>
+        </div>
+        <p class="section-text" style="margin-bottom: 4px;">
+          Experience flavors crafted with passion and served with pride.
+        </p>
+        <p class="section-text footer-contact" style="margin-bottom: 8px;">
+
+          <strong>Address:</strong> 35, Outer Ring Rd, near Eco Space, Adarsh Palm Retreat, Bellandur, Bengaluru,
+          Karnataka 560103
+
+
+          <strong>Phone:</strong> <a href="tel:09448851909">+91 94488 51909</a>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul class="footer-links">
+          <li><a href="#">Starters</a></li>
+          <li><a href="#">Main Course</a></li>
+          <li><a href="#">Desserts</a></li>
+          <li><a href="#">Beverages</a></li>
+          <li><a href="#">Chef’s Specials</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul class="footer-links">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul class="footer-links">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      © 2025 The Rasaganga. All rights reserved.
+    </div>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
