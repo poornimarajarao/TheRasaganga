@@ -1,6 +1,12 @@
-# The Rasaganga
-The real restaurant ‘The Rasaganga’ stuck in my head so much that I just had to borrow the name for my project!
+# The Rasaganga (Currently optimized for desktop view)
 
+
+
+https://github.com/user-attachments/assets/44d51c3a-a15e-4ab3-bbe3-0a0123a88dc5
+
+
+
+The real restaurant ‘The Rasaganga’ stuck in my head so much that I just had to borrow the name for my project!
 A modern, responsive restaurant landing page built using HTML, CSS, and JavaScript.
 
 ## Features
